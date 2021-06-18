@@ -67,6 +67,7 @@ button {
     color: var(--green);
     padding: 0;
     border-radius: 0.25rem;
+    border: 2px solid var(--light-green);
     cursor: pointer;
 }
 
@@ -247,10 +248,6 @@ input {
     border-radius: 0.2rem;
     padding: 0.8rem;
     width: 100%;
-}
-
-input[type="date"] {
-    cursor: pointer;
 }
 
 .input-group {
