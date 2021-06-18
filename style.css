@@ -85,6 +85,11 @@ button:hover {
     justify-content: center;
 }
 
+.button.cancel:hover {
+    background-color: var(--red);
+    color: #fff;
+}
+
 .button.new {
     display: inline-block;
     margin-bottom: .8rem;
@@ -227,7 +232,7 @@ td.expense {
     max-width: 500px;
 }
 
-/* FORM ============================== */
+/* FORM - MODAL ============================== */
 
 #form {
     max-width: 500px;
@@ -242,6 +247,10 @@ input {
     border-radius: 0.2rem;
     padding: 0.8rem;
     width: 100%;
+}
+
+input[type="date"] {
+    cursor: pointer;
 }
 
 .input-group {
